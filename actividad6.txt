@@ -1,0 +1,78 @@
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1
+$ ls
+apiExpress/  css1/  dom2/  ejercicio/  fetch/   ff2/              img2/  img5/  index.html     playground-1.mongodb.js  playground-4.mongodb.js 
+bucles/      css2/  dom3/  Express/    fetch2/  ff3/              img3/  img6/  localStorage/  playground-2.mongodb.js
+css/         dom1/  dom4/  Express2/   ff1/     FuncionesFlecha/  img4/  img7/  pagina.html    playground-3.mongodb.js
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1
+$ mkdir TallerBash
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1
+$ ls
+apiExpress/  css1/  dom2/  ejercicio/  fetch/   ff2/              img2/  img5/  index.html     playground-1.mongodb.js  playground-4.mongodb.js 
+bucles/      css2/  dom3/  Express/    fetch2/  ff3/              img3/  img6/  localStorage/  playground-2.mongodb.js  TallerBash/
+css/         dom1/  dom4/  Express2/   ff1/     FuncionesFlecha/  img4/  img7/  pagina.html    playground-3.mongodb.js
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1
+$ touch index.html
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1
+$ cd TallerBash
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1/TallerBash
+$ mkdir ejercicio1
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1/TallerBash
+$ mkdir ejercico2
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1/TallerBash
+$ cd ejercicio1
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1/TallerBash/ejercicio1
+$ touch index.html
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1/TallerBash/ejercicio1
+$ touch ejercicio1.css
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1/TallerBash/ejercicio1
+$ cd ..
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1/TallerBash
+$ cd ejercico2
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1/TallerBash/ejercico2
+$ touch index2.html
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1/TallerBash/ejercico2
+$ cd ..
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1/TallerBash
+$ mv ejercico2 ejercicio2
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1/TallerBash
+$ cp ejercicio2/index2.html index2.html
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1/TallerBash
+$ mkdir ejercicio3
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1/TallerBash
+$ cd ejercicio3
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1/TallerBash/ejercicio3
+$ touch index3.html
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1/TallerBash/ejercicio3
+$ touch ejercicio3.css
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1/TallerBash/ejercicio3
+$ rm index3.html
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1/TallerBash/ejercicio3
+$ rm ejercicio3.css
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1/TallerBash/ejercicio3
+$ cd ..
+
+Lenovo@DESKTOP-D980CUP MINGW64 ~/Documents/Web1/TallerBash
+$ rm -r ejercicio3
